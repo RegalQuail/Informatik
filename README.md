@@ -22,7 +22,7 @@ to the HTML file:
 <script src="index.js" defer></script>
 ```
 
-The `defer` keyword makes the js load after the rest of the page has loaded
+The `defer` keyword makes the JS load after the rest of the page has loaded.
 
 We can also just write CSS and JS code inside the HTML file without the need for any additional  
 file by writing inside `<style>` and `<script>` tags respectively, all in the header of the HTML file:
