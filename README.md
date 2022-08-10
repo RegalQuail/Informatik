@@ -19,5 +19,7 @@ to the html file:
 
 ```html
 <link rel="stylesheet" href="style.css">
-<script src="index.js"></script>
+<script src="index.js" defer></script>
 ```
+
+The `defer` keyword makes the js load after the rest of the page has loaded
