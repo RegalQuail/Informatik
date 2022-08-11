@@ -1,24 +1,23 @@
-p {
-    font-family: 'Open Sans', sans-serif;
+#centered {
     text-align: center;
-    color: red;
-    font-size: 24px;
-}
-
-#text {
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
-    font-size: 24px;
-    color: black;
 }
 
 h1 {
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
+    color: red;
+}
+
+h2 {
     color: blue;
 }
 
-#link {
-    font-family: 'Open Sans', sans-serif;
-    text-align: center;
+h3 {
+    color: green;
+}
+
+ol {
+    color: orange;
+}
+
+ul {
+    color: purple;
 }

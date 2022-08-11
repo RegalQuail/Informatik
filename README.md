@@ -37,3 +37,31 @@ file by writing inside `<style>` and `<script>` tags respectively, all in the he
     <script>Some JS</script>
 </head>
 ```
+
+We can use the `<a>` tag to insert links:
+`<a href="http://google.com">This is a link to google.com</a>`
+
+Or an `<img>` tag to insert images:
+`<img src="myImage.png" width="100" alt="This is an image">`
+
+The unordered list tag `<ul>` creates a list with no specific order:
+
+```html
+<ul>
+    <li>This is a list item</li>
+    <li>This is a list item</li>
+    <li>This is a list item</li>
+</ul>
+```
+
+Contrary to the ordered list `<ol>`:
+
+```html
+<ol>
+    <li>This</li>
+    <li>is</li>
+    <li>an</li>
+    <li>ordered</li>
+    <li>list</li>
+</ol>
+```
