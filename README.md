@@ -2,6 +2,10 @@
 
 3.y Informatik  
 
+## Important information
+
+Github website: <https://github.com/mpsteenstrup/InformatikRysensteen>
+
 ## Making a website
 
 ### Modul 11/8/2022
@@ -14,7 +18,7 @@ index.css
 index.js
 ```
 
-We can use the `<link>` and `<script>` tags for the CSS and JS file respectively to connect them
+We can use the `<link>` and `<script>` tags for the CSS and JS files respectively to connect them
 to the HTML file:
 
 ```html
