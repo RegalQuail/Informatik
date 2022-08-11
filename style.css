@@ -17,3 +17,8 @@ h1 {
     text-align: center;
     color: blue;
 }
+
+#link {
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
