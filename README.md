@@ -4,7 +4,7 @@
 
 ## Important information
 
-Github website: <https://github.com/mpsteenstrup/InformatikRysensteen>
+Github link: <https://github.com/mpsteenstrup/InformatikRysensteen>
 
 ## Making a website
 
