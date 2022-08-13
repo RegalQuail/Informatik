@@ -14,7 +14,7 @@ Files:
 
 ```text
 index.html
-index.css
+style.css
 index.js
 ```
 
@@ -64,4 +64,22 @@ Contrary to the ordered list `<ol>`:
     <li>ordered</li>
     <li>list</li>
 </ol>
+```
+
+### Modul 15/8/2022
+
+#### Homework
+
+CSS stands for Cascading Style Sheet. It can be written inside the HTML file, or in its own file. Here, our CSS file is `style.css`. As said before, the CSS file needs to be linked to the HTML file via the `<link>` tag inside the `<head>` tag, as so:
+
+`<link rel="stylesheet" href="style.css">`
+
+To style a component:  
+
+```css
+h1 {
+    font: sans-serif;
+    color: red;
+    text-aligned: center;
+}
 ```
