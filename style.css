@@ -1,9 +1,13 @@
-#centered {
+* {
+    font-family: sans-serif;
+}
+
+.centered {
     text-align: center;
 }
 
 h1 {
-    color: red;
+    color: yellow;
 }
 
 h2 {
@@ -14,10 +18,19 @@ h3 {
     color: green;
 }
 
+h4 {
+    color: red;
+    text-align: center;
+}
+
 ol {
     color: orange;
 }
 
 ul {
     color: purple;
+}
+
+div {
+    text-align: center;
 }

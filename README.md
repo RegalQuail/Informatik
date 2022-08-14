@@ -70,6 +70,12 @@ Contrary to the ordered list `<ol>`:
 
 #### Homework
 
+Tekst om internettets historie:
+<https://github.com/mpsteenstrup/webteknologier/blob/master/filer/Historien_om_internettet_politiken2014.pdf>
+
+Paul Otlet: forsøgt at samle alle viden på mikrofilm
+Internettets "fødselsdag": juli 1945, når Memex blev først præsenteret. En maskine med netværk og viden.
+
 CSS stands for Cascading Style Sheet. It can be written inside the HTML file, or in its own file. Here, our CSS file is `style.css`. As said before, the CSS file needs to be linked to the HTML file via the `<link>` tag inside the `<head>` tag, as so:
 
 `<link rel="stylesheet" href="style.css">`
@@ -78,8 +84,57 @@ To style a component:
 
 ```css
 h1 {
-    font: sans-serif;
+    font-family: sans-serif;
     color: red;
     text-aligned: center;
+}
+```
+
+Tags can also have specifications/identifications, so you can style them individually:  
+
+```html
+<p id="para1"></p>
+<p id="para2"></p>
+```
+
+Global styling (every `<p>` tag):  
+
+```css
+p {
+    font-family: sans-serif;
+    text-align: center;
+}
+```
+
+Individual styling using their ID:  
+
+```css
+#para1 {
+    color: red;
+    font-size: 24px;
+}
+
+#para2 {
+    color: blue;
+    font-size: 18px;
+}
+```
+
+Just like IDs, we can use classes:  
+
+```html
+<div class="red"></div>
+<div class="blue"></div>
+```
+
+Their selector is a ".":  
+
+```css
+.red {
+    color: red;
+}
+
+.blue {
+    color: blue;
 }
 ```

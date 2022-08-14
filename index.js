@@ -7,4 +7,5 @@ const owner = {
     }
 }
 
-document.getElementById('owner').innerHTML = owner.fullName();
+document.getElementById('owner').innerHTML = `The owner of this webpage is ${owner.fullName()}`;
+console.log(`${owner.name} is ${owner.age} years old`);
