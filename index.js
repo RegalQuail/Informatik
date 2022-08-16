@@ -9,3 +9,23 @@ const owner = {
 
 document.getElementById('owner').innerHTML = `The owner of this webpage is ${owner.fullName()}`;
 console.log(`${owner.name} is ${owner.age} years old`);
+
+class Person {
+    constructor(name, age) {
+        this.name = name;
+        this.age = age;
+    }
+    present() {
+        return `${this.name} is ${this.age} years old`;
+    }
+}
+
+const myself = new Person("Max", 18);
+console.log(myself.present());
+
+let count = 0;
+
+function countUp() {
+    count++;
+    document.getElementById('button1').innerHTML = "Click to add to the counter ! Count: " + count;
+}
