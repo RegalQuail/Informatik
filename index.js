@@ -20,12 +20,18 @@ class Person {
     }
 }
 
-const myself = new Person("Max", 18);
-console.log(myself.present());
+const friend = new Person("Carl", 18);
+console.log(friend.present());
 
 let count = 0;
 
 function countUp() {
+
     count++;
-    document.getElementById('button1').innerHTML = "Click to add to the counter ! Count: " + count;
+
+    if (count == 69) {
+        alert("Nice ! 😉");
+    }
+
+    document.getElementById('button1').innerHTML = `Click to add to the counter ! Count: ${count}`;
 }

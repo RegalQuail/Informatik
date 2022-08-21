@@ -8,7 +8,7 @@ Github link: <https://github.com/mpsteenstrup/InformatikRysensteen>
 
 ## Making a website
 
-### Modul 11/8/2022
+### Modul 1: 11/8/2022
 
 Files:
 
@@ -66,7 +66,7 @@ Contrary to the ordered list `<ol>`:
 </ol>
 ```
 
-### Modul 15/8/2022
+### Modul 2: 15/8/2022
 
 #### Homework
 
@@ -138,3 +138,5 @@ Their selector is a ".":
     color: blue;
 }
 ```
+
+### Modul 3: 22/08/2022
