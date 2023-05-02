@@ -141,8 +141,7 @@ Their selector is a ".":
 
 ### Modul 3: 22/08/2022
 
-Making a new website
-The website will be a Portfolio
+Making a new website wcich will be a Portfolio.
 
 Files:  
 
