@@ -27,8 +27,10 @@ function question() {
 
     }
 
+    document.getElementById('list').style.listStyle = 'disc';
+
 }
-// downcount() outside of start-check
+// countDown() outside of start-check
 function ans1() {
     if (data[id]["ANSID"] == 1 && start) {
         id++;

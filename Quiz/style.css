@@ -10,11 +10,6 @@
     margin: 4px 2px;
     transition-duration: 0.4s;
     cursor: pointer;
-    justify-content: space-around;
-    position: relative;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
 }
 
 .btn:hover {
@@ -25,4 +20,8 @@
 .btn:active {
     transform: scale(0.95);
     transition-duration: 0.1s;
+}
+
+ul {
+    list-style-type: none;
 }
