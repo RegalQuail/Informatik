@@ -141,12 +141,4 @@ Their selector is a ".":
 
 ### Modul 3: 22/08/2022
 
-Making a new website wcich will be a Portfolio.
-
-Files:  
-
-```text
-myWebsite.html
-myStyle.css
-contact.html
-```
+Making a new website which will be a Portfolio, with a new repository: Portfolio.
